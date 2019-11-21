@@ -52,7 +52,7 @@ public class Main {
                     keys[i] = key;
                     currentSize++;
                 }
-                if (keys[i] == key) {
+                if (keys[i].equals(key)) {
                     values[i] = value;
                     break;
                 }
